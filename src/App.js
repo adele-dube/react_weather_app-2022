@@ -2,6 +2,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 
 import Search from "./Search";
+import Api from "./Api";
 
 function App() {
   return (
