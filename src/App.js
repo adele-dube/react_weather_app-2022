@@ -1,6 +1,8 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 
+import Search from "./Search";
+
 function App() {
   return (
     <div className="container">
@@ -29,6 +31,8 @@ function App() {
               </div>
             </form>
           </div>
+
+          <Search />
 
           <div class="row justify-content-center" id="heading-container">
             <div
