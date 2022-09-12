@@ -9,30 +9,6 @@ function App() {
     <div className="container">
       <div class="card" id="main-card">
         <div class="card-body shadow">
-          <div class="row align-items-center">
-            <form class="d-flex" role="search" id="search-form">
-              <div class="col-8 justify-content-center">
-                <input
-                  class="form-control me-2 shadow-sm"
-                  type="search"
-                  placeholder="Enter a City..."
-                  aria-label="Search"
-                  id="search-input"
-                />
-              </div>
-
-              <div class="col-3 justify-content-center">
-                <button
-                  class="btn btn-success shadow-sm"
-                  type="submit"
-                  id="search-button"
-                >
-                  Search
-                </button>
-              </div>
-            </form>
-          </div>
-
           <Search />
 
           <div class="row justify-content-center" id="heading-container">

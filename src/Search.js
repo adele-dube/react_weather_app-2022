@@ -18,15 +18,30 @@ export default function Search(props) {
   }
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="search"
-          placeholder="Enter a city..."
-          autoFocus={true}
-          onChange={updateCity}
-        />
-        <input type="submit" value="Search" />
+    <div className="row align-items-center">
+      <form
+        onSubmit={handleSubmit}
+        class="d-flex"
+        role="search"
+        id="search-form"
+      >
+        <div class="col-8 justify-content-center">
+          <input
+            className="form-control me-2 shadow-sm"
+            type="search"
+            placeholder="Enter a city..."
+            autoFocus={true}
+            onChange={updateCity}
+          />
+        </div>
+        <div class="col-3 justify-content-center">
+          <input
+            type="submit"
+            value="Search"
+            className="btn btn-success shadow-sm"
+            id="search-button"
+          />
+        </div>
       </form>
 
       <div>{temperature}</div>
