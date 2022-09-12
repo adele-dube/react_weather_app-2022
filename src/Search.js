@@ -34,6 +34,7 @@ export default function Search(props) {
             placeholder="Enter a city..."
             autoFocus={true}
             onChange={updateCity}
+            id="search-input"
           />
         </div>
         <div class="col-3 justify-content-center">
