@@ -1,15 +1,16 @@
 import React, { useState } from "react";
 import Api from "./Api";
+import ReactAnimatedWeather from "react-animated-weather";
 
 export default function Heading(props) {
   return (
     <div class="row justify-content-center" id="heading-container">
       <div class="col-3 align-self-center" name="main-emoji" id="main-emoji">
-        <img
-          src="media/1530392_weather_sun_sunny_temperature.png"
-          alt="Sunny"
-          id="icon"
-          width="100px"
+        <ReactAnimatedWeather
+          icon="CLEAR_DAY"
+          color="#48484a"
+          size={56}
+          animate={true}
         />
       </div>
 
@@ -32,7 +33,7 @@ export default function Heading(props) {
           </span>
 
           <h4 class="current-date" id="current-date">
-            Thursday, 23/06/2 2
+            Monday, 12/09/22
           </h4>
         </div>
       </div>

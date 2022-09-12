@@ -11,7 +11,6 @@ function App() {
       <div class="card" id="main-card">
         <div class="card-body shadow">
           <Search />
-          --------------------------------------------------------------------------------
           {/* <div class="row justify-content-center" id="heading-container">
             <div
               class="col-3 align-self-center"
