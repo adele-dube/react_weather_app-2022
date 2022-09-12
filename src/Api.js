@@ -14,7 +14,6 @@ export default function Api(props) {
     setHumidity(response.data.main.humidity);
     setWind(response.data.wind.speed);
     setIcon(response.data.weather[0].icon);
-
   }
 
   if (temp !== null) {
@@ -26,7 +25,7 @@ export default function Api(props) {
 
     return (
       <div>
-        <ul>
+        {/* <ul>
           <li>Temperature: {temp}°C</li>
           <li>Description: {description}</li>
           <li>Humidity:{humdity}%</li>
@@ -38,9 +37,9 @@ export default function Api(props) {
               title={description}
             />
           </li>
-        </ul>
+        </ul> */}
 
-        <h3>Hello {props.city}!! </h3>
+        {/* <h3>Hello {props.city}!! </h3> */}
       </div>
     );
   } else {

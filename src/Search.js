@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Api from "./Api";
+import Heading from "./Heading";
+import UpcomingWeather from "./UpcomingWeather";
 
 export default function Search(props) {
   let [city, setCity] = useState("");
@@ -45,6 +47,8 @@ export default function Search(props) {
       </form>
 
       <div>{temperature}</div>
+      <Heading />
+      <UpcomingWeather />
     </div>
   );
 }
