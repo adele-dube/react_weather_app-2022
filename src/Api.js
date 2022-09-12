@@ -17,6 +17,10 @@ export default function Api(props) {
   }
 
   if (temp !== null) {
+    {
+      /* DISABLED FOR SHECODES WEEK 4 HOMEWORK ONLY- CODE WILL BE IN FINAL PROJECT */
+    }
+
     // let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&appid=1a915758c5fb84c9ee7377f6039e76a7&units=metric`;
 
     // axios.get(apiUrl).then(showTemp);
@@ -24,8 +28,12 @@ export default function Api(props) {
     // console.log(apiUrl);
 
     return (
-      <div>
-        {/* <ul>
+      {
+        /* DISABLED FOR SHECODES WEEK 4 HOMEWORK ONLY- CODE WILL BE IN FINAL PROJECT */
+      } <
+      {
+        /*div >
+       <ul>
           <li>Temperature: {temp}°C</li>
           <li>Description: {description}</li>
           <li>Humidity:{humdity}%</li>
@@ -37,10 +45,11 @@ export default function Api(props) {
               title={description}
             />
           </li>
-        </ul> */}
+        </ul> 
 
-        {/* <h3>Hello {props.city}!! </h3> */}
-      </div>
+         <h3>Hello {props.city}!! </h3> 
+      </div>*/
+      }
     );
   } else {
     return <h1>Loading...</h1>;

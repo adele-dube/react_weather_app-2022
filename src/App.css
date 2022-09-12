@@ -1,6 +1,6 @@
 .container {
   text-align: center;
-  background-color: #fbfcff;
+  /* background-color: #fbfcff; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -20,8 +20,9 @@
 }
 
 #search-form {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   text-align: center;
+  margin: 10px 80px;
 }
 
 #search-input {
@@ -29,9 +30,9 @@
   margin: 10px 80px;
 }
 
-/* #search-button {
-  margin: 10px 90px;
-} */
+#search-button {
+  margin-left: 1px;
+}
 
 #search-button {
   background-color: rgb(72, 72, 74);

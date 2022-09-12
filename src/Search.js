@@ -29,7 +29,7 @@ export default function Search(props) {
       >
         <div class="col-8 justify-content-center">
           <input
-            className="form-control me-2 shadow-sm"
+            className="form-control shadow-sm"
             type="search"
             placeholder="Enter a city..."
             autoFocus={true}
